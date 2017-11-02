@@ -28,7 +28,6 @@ namespace ConsoleApplication1
             {
                 _ruleSetName = ruleSetName;
 
-
                 if (_ruleSet == null)
                 {
                     throw new Exception("RuleSet could not be loaded. Make sure the connection string and ruleset name are correct.");
